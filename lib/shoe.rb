@@ -44,7 +44,4 @@ class Shoe
     shoe.conditon = "new"
   end
 
-
-
-
 end
