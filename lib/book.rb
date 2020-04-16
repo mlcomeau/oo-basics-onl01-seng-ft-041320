@@ -1,17 +1,17 @@
 class Book
   def initialize(title)
-    @title = title 
+    @title = title
   end
 
   def title
-    @title 
+    @title
   end
 
   def author=(author)
-    @author = author 
+    @author = author
   end
 
-  def author 
+  def author
     @author
   end
 
@@ -22,20 +22,18 @@ class Book
   def page_count
     @page_count
   end
-  
+
   def genre=(genre)
-    @genre = genre 
+    @genre = genre
   end
 
-  def genre 
+  def genre
     @genre
   end
 
   def turn_page
     puts "Flipping the page...wow, you read fast!"
   end
-    
-  
+
+
 end
-
-
