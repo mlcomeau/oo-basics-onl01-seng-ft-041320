@@ -19,16 +19,16 @@ class Shoe
     @size = num
   end
 
-  def size 
+  def size
     @size
   end
 
   def material=(material)
-    @material = material 
+    @material = material
   end
 
-  def material 
-    @material 
+  def material
+    @material
   end
 
   def condition=(condition)
@@ -39,11 +39,11 @@ class Shoe
     @condition
   end
 
-  def cobble 
+  def cobble
     puts "Your shoe is good as new!"
     shoe.conditon = "new"
   end
-  
+
 
 
 
